@@ -1,0 +1,14 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+10.10.74.100 bastion.test.local
+
+10.10.74.100 api.ocp4.test.local
+10.10.74.100 api-int.ocp4.test.local
+10.10.74.60 bootstrap.ocp4.test.local
+10.10.74.61 master1.ocp4.test.local
+10.10.74.62 master2.ocp4.test.local
+10.10.74.63 master3.ocp4.test.local
+
+10.10.74.64 worker1.ocp4.test.local
+10.10.74.65 worker2.ocp4.test.local

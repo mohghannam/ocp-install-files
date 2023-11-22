@@ -1,0 +1,18 @@
+apiVersion: v1
+baseDomain: test.local
+compute: 
+- hyperthreading: Enabled 
+  name: worker
+  replicas: 0 
+controlPlane: 
+  hyperthreading: Enabled 
+  name: master
+  replicas: 3 
+metadata:
+  name: ocp4
+platform: none
+fips: false 
+pullSecret: ''
+sshKey: ''
+additionalTrustBundle: | 
+imageContentSources: 
