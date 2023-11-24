@@ -10,7 +10,8 @@ controlPlane:
   replicas: 3 
 metadata:
   name: ocp4
-platform: none
+platform:
+  none: {}
 fips: false 
 pullSecret: ''
 sshKey: ''
